@@ -20,8 +20,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- custon style Sheet & JavaScript -->
     <link rel="stylesheet" href="assets/css/index.css"/>
-    <script src="assets/js/index.js" defer></script>
-    <link rel="manifest" href="assets/manifest.json">
+  
     <!-- custon style Sheet & JavaScript -->
     <title>LoveShop</title>
     @laravelPWA
@@ -44,7 +43,7 @@
             >COLLECTION</span
           >
         </h1>
-        <model-viewer src="{{asset('assets/modelos/all.gltf')}}" alt="A 3D model of a car" class="MODEL1" shadow-intensity="1" camera-controls auto-rotate ar >
+        <model-viewer src="assets/modelos/all.gltf" alt="A 3D model of a car" class="MODEL1" shadow-intensity="1" camera-controls auto-rotate ar >
         </model-viewer>
       </div>
       <div class="hero-inner flex">
@@ -75,7 +74,7 @@
 
         </div>
         <div class="product-img2">
-          <model-viewer src="{{asset('assets/modelos/scene2.gltf')}}" alt="A 3D model of a car" shadow-intensity="1" camera-controls auto-rotate ar >
+          <model-viewer src="assets/modelos/scene2.gltf" alt="A 3D model of a car" shadow-intensity="1" camera-controls auto-rotate ar >
           </model-viewer>
         </div>
       </div>
@@ -91,7 +90,7 @@
 
         </div>
         <div class="product-img3">
-          <model-viewer src="{{asset('assets/modelos/bolsa.gltf')}}" alt="A 3D model of a car" shadow-intensity="1" camera-controls auto-rotate ar >
+          <model-viewer src="assets/modelos/bolsa.gltf" alt="A 3D model of a car" shadow-intensity="1" camera-controls auto-rotate ar >
           </model-viewer>
         </div>
       </div>
@@ -108,7 +107,7 @@
 
         </div>
         <div class="product-img4">
-          <model-viewer src="{{asset('assets/modelos/botas.gltf')}}" alt="A 3D model of a car" shadow-intensity="1" camera-controls auto-rotate ar >
+          <model-viewer src="assets/modelos/botas.gltf" alt="A 3D model of a car" shadow-intensity="1" camera-controls auto-rotate ar >
           </model-viewer>
         </div>
       </div>
@@ -243,6 +242,7 @@
       src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
 	</script>
       <script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.1.3/webcomponents-loader.js"></script> 
+      <script src="assets/js/index.js" defer></script>
 </html>
 
 
