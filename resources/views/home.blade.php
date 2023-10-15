@@ -167,7 +167,7 @@
         <p class="fs-montserrat text-white fs-50">
           Nos esforzamos por ofrecer productos de la más alta calidad de marcas de renombre. Trabajamos estrechamente con nuestros proveedores para garantizar que cada artículo cumpla con nuestros estándares de calidad rigurosos.
         </p>
-        <a href="./shop.html">
+        <a href="{{ url('/shop') }}">
           <button class="prdduct-btn large-btn text-red bg-white fs-poppins">
             Comprar
           </button>
